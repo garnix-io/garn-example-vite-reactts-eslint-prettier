@@ -1,3 +1,20 @@
+## **_NOTE:_**
+
+This is a fork of
+[TheSwordBreaker/vite-reactts-eslint-prettier](https://github.com/TheSwordBreaker/vite-reactts-eslint-prettier).
+It demonstrates how to add [garn](https://garn.io) to a project, including the
+`vite` and `deployToGhPages` plugins. If you have [garn
+installed](https://garn.io/docs/getting_started), you can fork this project on
+github and run `garn run webApp.deployToGhPages` to deploy this web app to
+[https://$YOUR_GITHUB_USER.github.io/garn-example-vite-reactts-eslint-prettier/](https://$YOUR_GITHUB_USER.github.io/garn-example-vite-reactts-eslint-prettier/).
+
+This fork is deployed here:
+https://garnix-io.github.io/garn-example-vite-reactts-eslint-prettier/
+
+---
+
+Here's the original README:
+
 # Vite + React + Typescript + Eslint + Prettier
 
 A starter for React with Typescript with the fast Vite and all static code testing with Eslint and formatting with Prettier.
@@ -8,7 +25,7 @@ I found out about Vite and I wanted to have a boilerplate for the technologies t
 
 ## Installation
 
-Clone the repo and run `yarn install`
+Clone the repo and run `npm install`
 
 or Run command
 
@@ -18,7 +35,7 @@ npx degit TheSwordBreaker/vite-reactts-eslint-prettier project-name
 
 ## Start
 
-After the successfull installation of the packages: `yarn dev`
+After the successfull installation of the packages: `garn run webApp.dev`
 
 ## Steps in Vscode
 
