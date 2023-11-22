@@ -3,6 +3,6 @@ import { defineConfig } from 'vite';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/garn-example-vite-reactts-eslint-prettier/",
+  base: '/garn-example-vite-reactts-eslint-prettier/',
   plugins: [react()],
 });
